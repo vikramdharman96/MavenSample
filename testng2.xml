@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="screenshotTestNG.ITestListenerClass"></listener>
+	</listeners>
+	<test name="Test1">
+		<classes>
+			<class name="screenshotTestNG.TestClass">
+				<methods>
+					<include name="TestGoogle"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test2">
+		<classes>
+			<class name="screenshotTestNG.TestClass">
+				<methods>
+					<include name="TestFaceBook"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test3">
+		<classes>
+			<class name="screenshotTestNG.TestClass">
+				<methods>
+					<include name="TestOrangeHrm"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+
+
+
+</suite> <!-- Suite -->
